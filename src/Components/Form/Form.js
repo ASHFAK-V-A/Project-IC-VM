@@ -137,7 +137,7 @@ function Form({ register, handleSubmit, onSubmit, errors }) {
                       </div>
                     </div>
 
-                    <div className="col-6">
+                    <div className=" col-12 col-md-6">
                       <div className="form-group was-validated  mt-3 mb-2">
                         <label
                           className="form-label fs-6"
@@ -163,7 +163,7 @@ function Form({ register, handleSubmit, onSubmit, errors }) {
                         </p>
                       </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-12 col-md-6">
                       <div className="form-group was-validated mt-3 ">
                         <label
                           className="form-label fs-6"
