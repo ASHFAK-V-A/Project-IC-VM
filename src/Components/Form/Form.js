@@ -7,7 +7,7 @@ function Form({ register, handleSubmit, onSubmit, errors }) {
     <div>
       <div className="image-box">
         <div className="body">
-          <div className="col-8">
+          <div className="col-10 col-md-8">
             <div className="login">
               <form
                 className="needs-validation"
@@ -15,7 +15,7 @@ function Form({ register, handleSubmit, onSubmit, errors }) {
               >
                 <section>
                   <div className="row">
-                    <div className="col-6">
+                    <div className=" col-12 col-md-6">
                       <div className="form-group was-validated mb-2">
                         <label className="form-label fs-6" htmlFor="username">
                           Username
@@ -47,8 +47,8 @@ function Form({ register, handleSubmit, onSubmit, errors }) {
                         </small>
                       </div>
                     </div>
-                    <div className="col-6">
-                      <div className="form-group was-validated  mb-2">
+                    <div className="col-12 col-md-6">
+                      <div className="form-group was-validated ">
                         <label className="form-label fs-6" htmlFor="Email">
                           Email
                         </label>
@@ -76,7 +76,7 @@ function Form({ register, handleSubmit, onSubmit, errors }) {
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-6">
+                      <div className="col-12 col-md-6">
                         <div className="form-group was-validated  mt-3 mb-2">
                           <label
                             className="form-label fs-6"
@@ -103,8 +103,8 @@ function Form({ register, handleSubmit, onSubmit, errors }) {
                         </div>
                       </div>
 
-                      <div className="col-6">
-                        <div className="form-group was-validated  mt-3 mb-2">
+                      <div className="col-12 col-md-6 mt-3">
+                        <div className="form-group was-validated ">
                           <label className="form-label fs-6" htmlFor="phone">
                             Phone
                           </label>
